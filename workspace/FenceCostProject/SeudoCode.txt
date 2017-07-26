@@ -1,0 +1,28 @@
+ perimitFee =50.0
+taxRate =6%(0.06)
+
+Prompt user to enter  fence length.
+  Read length
+Prompt user to enter  fence width.
+ Read width
+Calculate fence perimeter (perimeter= 2*(length +width))
+Prompt user to choose fence type.
+       if fence type is wooden 
+                 fenceOnlyCost = 25 *perimeter
+    else if  fenceType is chain-link
+                      fenceOnlyCost = 15*perimeter
+   prompt the user to enter number of gates needed.
+         Read number of gates
+if  gates =1
+       gateCost =150 *1
+else if gates =2
+     gateCost =150*2
+else if gates =3
+    gateCost =150*3
+
+calculate the tax
+               tax =(fenceOnlyCost +gateCost)*taxRate
+calculate the total cost of the fence
+          fenceTotalCost  = fenceOnlyCost + gateCost + permitFee+ tax
+ Dispplay the total cost of the fence to the user.
+ 
